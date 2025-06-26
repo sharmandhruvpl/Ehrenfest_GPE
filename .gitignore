@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Scientific computing
+*.hdf5
+*.h5
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# HPC/SLURM
+*.out
+*.err
+slurm-*.out
+
+# Data files (adjust based on your needs)
+*.dat
+*.csv
+results/
+output/
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

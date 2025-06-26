@@ -1,0 +1,14 @@
+sacct -u dsharma --starttime=2025-04-22 --endtime=2025-04-23 --format=JobID,JobName,Elapsed,State,ExitCode,NodeList,AllocCPUS
+
+
+scp -P 8022 dsharma@access-iris.uni.lu:/home/users/dsharma/quantum_dynamics_hpc/quantum_dynamics_results/quantum_dynamics_e0.0_z0.05_berry_only_20250422_130841.h5 .
+
+ssh -p 8022 dsharma@access-iris.uni.lu
+
+
+ls | wc -l
+
+
+
+
+
